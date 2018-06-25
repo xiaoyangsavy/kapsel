@@ -112,7 +112,31 @@ cordovaHTTP.post("http://www.liuchang.org",{},{}, function(response){
 }
 
 
+<!--调用post接口 -->
+function doInterface()
+{
+cordovaHTTP.post("https://kwaysup.keywaytech.cn:8088/sap/es/ina/GetResponse", {
+            appId:appID,
+            phone:"",
+            password:password,
+            clientTye:"web",
+        }, {},
+        function(response) {
 
+          alert(response.status + "访问成功" + "\n返回的json数据     为：" + response.data);
+            try {
+
+                var jsonbj = JSON.parse(response.data);
+            } catch(e) {
+                console.error("JSON parsing error");
+            }
+        }, function(response) {
+
+            alert("访问失败" + response.status + "、" + response.data);
+
+            console.log(response.error);
+        });
+}
 
 </script>
     </head>
@@ -123,7 +147,7 @@ cordovaHTTP.post("http://www.liuchang.org",{},{}, function(response){
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-            <button onclick="initPasscodeManager()">初始化密码</button><button onclick="testInterface()">调用接口</button>
+            <button onclick="initPasscodeManager()">初始化密码</button><button onclick="doInterface()">调用接口</button>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
