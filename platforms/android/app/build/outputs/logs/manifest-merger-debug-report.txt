@@ -1,0 +1,283 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:18:9-20:20
+	android:grantUriPermissions
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:18:92-126
+	android:authorities
+		INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:18:19-66
+	android:exported
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:18:67-91
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:18:127-180
+manifest
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:1-37:12
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\6e77837a1c8cdd54314a4e31054fdc17\AndroidManifest.xml:17:1-27:12
+MERGED from [:corelibs-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\corelibs-plugin-4.0.0.aar\022df805152b1113fca7786f79d8d2c7\AndroidManifest.xml:2:1-11:12
+MERGED from [:Common-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Common-3.16.9.aar\99ba25663f01ec70aa793258f51a99db\AndroidManifest.xml:2:1-11:12
+MERGED from [:Connectivity-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Connectivity-3.16.9.aar\07e95eb44b878164b971b4c135bf69d9\AndroidManifest.xml:2:1-11:12
+MERGED from [:ClientHubSLL-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ClientHubSLL-3.16.9.aar\98b5c5e61b834d7ee2b0509fcdb6f625\AndroidManifest.xml:2:1-11:12
+MERGED from [:CoreServices-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CoreServices-3.16.9.aar\422d5a143b2bda60335c1538bb00e03a\AndroidManifest.xml:2:1-11:12
+MERGED from [:Request-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Request-3.16.9.aar\1dc5af1cbdb72bf35d34c1e288be64a2\AndroidManifest.xml:2:1-11:12
+MERGED from [:DataVaultLib-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\DataVaultLib-3.16.9.aar\3967d36b953f22e2ef76f03bf0bc05df\AndroidManifest.xml:2:1-11:12
+MERGED from [:ClientLog-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ClientLog-3.16.9.aar\8bde1d345db4d496b707241bbcdaa0fb\AndroidManifest.xml:2:1-11:12
+MERGED from [:SupportabilityFacade-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SupportabilityFacade-3.16.9.aar\380e11638edab75425971c0fbcace5c2\AndroidManifest.xml:2:1-11:12
+MERGED from [:HttpConversation-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\HttpConversation-3.16.9.aar\b03062d327acfc829881f5c14603b667\AndroidManifest.xml:2:1-11:12
+MERGED from [:HttpConvAuthFlows-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\HttpConvAuthFlows-3.16.9.aar\c6d7569404686e368f96279cfd13406f\AndroidManifest.xml:2:1-11:12
+MERGED from [:E2ETrace-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\E2ETrace-3.16.9.aar\f567602fd45c801daa875f39bd6307ae\AndroidManifest.xml:2:1-11:12
+MERGED from [:i18n-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\i18n-plugin-4.0.0.aar\6d579e47d16b140210b0ac93b41dbbe4\AndroidManifest.xml:2:1-11:12
+MERGED from [:authproxy-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\authproxy-plugin-4.0.0.aar\91650cc33175480b4b22e55a0a340c82\AndroidManifest.xml:2:1-11:12
+MERGED from [:MAFLogonCore-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\MAFLogonCore-3.16.9.aar\c00d96d72129fe6cf64441171202b86c\AndroidManifest.xml:2:1-11:12
+MERGED from [:MAFLogger-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\MAFLogger-3.16.9.aar\076b334a7a49f5ae57a87f22c2df3288\AndroidManifest.xml:2:1-11:12
+MERGED from [:CommonCertificateProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CommonCertificateProvider-3.16.9.aar\42b35b3da409f5632e661563f01ea37a\AndroidManifest.xml:2:1-11:12
+MERGED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:2:1-18:12
+MERGED from [:XscriptParser-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\XscriptParser-3.16.9.aar\eaa3c637445d066d6c349868deeb84c7\AndroidManifest.xml:2:1-11:12
+MERGED from [:logon-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\logon-plugin-4.0.0.aar\5f6a2dd912d6217cf72499014706b818\AndroidManifest.xml:2:1-11:12
+MERGED from [:appupdate-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appupdate-plugin-4.0.0.aar\44abf3ef2a32ad0b9885872cd30e66a9\AndroidManifest.xml:2:1-11:12
+MERGED from [:logger-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\logger-plugin-4.0.0.aar\82da5bf9a220664b53a0a18bdedfd0bd\AndroidManifest.xml:2:1-11:12
+MERGED from [:encryptedstorage-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\encryptedstorage-plugin-4.0.0.aar\49dbd568d472284d419a23b9fcdb78e9\AndroidManifest.xml:2:1-11:12
+MERGED from [:CordovaLib] D:\WorkSpaceApp\KapselGSDemo\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:102-125
+		INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:126-184
+	android:versionCode
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:5:5-30:19
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\6e77837a1c8cdd54314a4e31054fdc17\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\6e77837a1c8cdd54314a4e31054fdc17\AndroidManifest.xml:25:5-20
+MERGED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:11:5-16:19
+MERGED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:11:5-16:19
+	android:supportsRtl
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:5:182-208
+	android:label
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+	android:networkSecurityConfig
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:5:114-181
+activity#com.kapsel.gs.MainActivity
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:6:9-17:20
+	android:label
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.kapsel.gs.xcallbackurl
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:11:13-16:29
+action#android.intent.action.VIEW
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:12:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:13:17-76
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:13:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:14:17-78
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:14:27-75
+data
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:15:17-69
+	android:scheme
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:15:23-66
+activity#com.sap.smp.client.httpc.authflows.SAML2AuthActivity
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:21:9-201
+	android:excludeFromRecents
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:21:97-130
+	android:configChanges
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:21:19-96
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:21:131-198
+activity#com.sap.smp.client.httpc.authflows.OTPAuthActivity
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:22:9-199
+	android:excludeFromRecents
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:22:97-130
+	android:configChanges
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:22:19-96
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:22:131-196
+activity#com.sap.mp.cordova.plugins.authProxy.AuthProxyOTPAuthActivity
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:23:9-210
+	android:excludeFromRecents
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:23:97-130
+	android:configChanges
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:23:19-96
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:23:131-207
+meta-data#com.sap.afaria
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:24:9-136
+	android:value
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:24:50-133
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:24:20-49
+meta-data#android.content.APP_RESTRICTIONS
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:25:9-107
+	android:resource
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:25:68-104
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:25:20-67
+meta-data#com.sap.SystemCertProvider
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:26:9-125
+	android:value
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:26:62-122
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:26:20-61
+provider#com.sap.mp.cordova.plugins.logger.LoggerFileProvider
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:27:9-29:20
+	android:grantUriPermissions
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:27:93-127
+	android:authorities
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:27:19-67
+	android:exported
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:27:68-92
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:27:128-195
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:28:13-114
+	android:resource
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:28:75-111
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:28:24-74
+uses-sdk
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:31:5-74
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\6e77837a1c8cdd54314a4e31054fdc17\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\6e77837a1c8cdd54314a4e31054fdc17\AndroidManifest.xml:21:5-23:54
+MERGED from [:corelibs-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\corelibs-plugin-4.0.0.aar\022df805152b1113fca7786f79d8d2c7\AndroidManifest.xml:7:5-9:41
+MERGED from [:corelibs-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\corelibs-plugin-4.0.0.aar\022df805152b1113fca7786f79d8d2c7\AndroidManifest.xml:7:5-9:41
+MERGED from [:Common-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Common-3.16.9.aar\99ba25663f01ec70aa793258f51a99db\AndroidManifest.xml:7:5-9:41
+MERGED from [:Common-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Common-3.16.9.aar\99ba25663f01ec70aa793258f51a99db\AndroidManifest.xml:7:5-9:41
+MERGED from [:Connectivity-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Connectivity-3.16.9.aar\07e95eb44b878164b971b4c135bf69d9\AndroidManifest.xml:7:5-9:41
+MERGED from [:Connectivity-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Connectivity-3.16.9.aar\07e95eb44b878164b971b4c135bf69d9\AndroidManifest.xml:7:5-9:41
+MERGED from [:ClientHubSLL-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ClientHubSLL-3.16.9.aar\98b5c5e61b834d7ee2b0509fcdb6f625\AndroidManifest.xml:7:5-9:41
+MERGED from [:ClientHubSLL-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ClientHubSLL-3.16.9.aar\98b5c5e61b834d7ee2b0509fcdb6f625\AndroidManifest.xml:7:5-9:41
+MERGED from [:CoreServices-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CoreServices-3.16.9.aar\422d5a143b2bda60335c1538bb00e03a\AndroidManifest.xml:7:5-9:41
+MERGED from [:CoreServices-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CoreServices-3.16.9.aar\422d5a143b2bda60335c1538bb00e03a\AndroidManifest.xml:7:5-9:41
+MERGED from [:Request-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Request-3.16.9.aar\1dc5af1cbdb72bf35d34c1e288be64a2\AndroidManifest.xml:7:5-9:41
+MERGED from [:Request-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Request-3.16.9.aar\1dc5af1cbdb72bf35d34c1e288be64a2\AndroidManifest.xml:7:5-9:41
+MERGED from [:DataVaultLib-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\DataVaultLib-3.16.9.aar\3967d36b953f22e2ef76f03bf0bc05df\AndroidManifest.xml:7:5-9:41
+MERGED from [:DataVaultLib-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\DataVaultLib-3.16.9.aar\3967d36b953f22e2ef76f03bf0bc05df\AndroidManifest.xml:7:5-9:41
+MERGED from [:ClientLog-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ClientLog-3.16.9.aar\8bde1d345db4d496b707241bbcdaa0fb\AndroidManifest.xml:7:5-9:41
+MERGED from [:ClientLog-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ClientLog-3.16.9.aar\8bde1d345db4d496b707241bbcdaa0fb\AndroidManifest.xml:7:5-9:41
+MERGED from [:SupportabilityFacade-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SupportabilityFacade-3.16.9.aar\380e11638edab75425971c0fbcace5c2\AndroidManifest.xml:7:5-9:41
+MERGED from [:SupportabilityFacade-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SupportabilityFacade-3.16.9.aar\380e11638edab75425971c0fbcace5c2\AndroidManifest.xml:7:5-9:41
+MERGED from [:HttpConversation-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\HttpConversation-3.16.9.aar\b03062d327acfc829881f5c14603b667\AndroidManifest.xml:7:5-9:41
+MERGED from [:HttpConversation-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\HttpConversation-3.16.9.aar\b03062d327acfc829881f5c14603b667\AndroidManifest.xml:7:5-9:41
+MERGED from [:HttpConvAuthFlows-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\HttpConvAuthFlows-3.16.9.aar\c6d7569404686e368f96279cfd13406f\AndroidManifest.xml:7:5-9:41
+MERGED from [:HttpConvAuthFlows-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\HttpConvAuthFlows-3.16.9.aar\c6d7569404686e368f96279cfd13406f\AndroidManifest.xml:7:5-9:41
+MERGED from [:E2ETrace-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\E2ETrace-3.16.9.aar\f567602fd45c801daa875f39bd6307ae\AndroidManifest.xml:7:5-9:41
+MERGED from [:E2ETrace-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\E2ETrace-3.16.9.aar\f567602fd45c801daa875f39bd6307ae\AndroidManifest.xml:7:5-9:41
+MERGED from [:i18n-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\i18n-plugin-4.0.0.aar\6d579e47d16b140210b0ac93b41dbbe4\AndroidManifest.xml:7:5-9:41
+MERGED from [:i18n-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\i18n-plugin-4.0.0.aar\6d579e47d16b140210b0ac93b41dbbe4\AndroidManifest.xml:7:5-9:41
+MERGED from [:authproxy-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\authproxy-plugin-4.0.0.aar\91650cc33175480b4b22e55a0a340c82\AndroidManifest.xml:7:5-9:41
+MERGED from [:authproxy-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\authproxy-plugin-4.0.0.aar\91650cc33175480b4b22e55a0a340c82\AndroidManifest.xml:7:5-9:41
+MERGED from [:MAFLogonCore-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\MAFLogonCore-3.16.9.aar\c00d96d72129fe6cf64441171202b86c\AndroidManifest.xml:7:5-9:41
+MERGED from [:MAFLogonCore-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\MAFLogonCore-3.16.9.aar\c00d96d72129fe6cf64441171202b86c\AndroidManifest.xml:7:5-9:41
+MERGED from [:MAFLogger-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\MAFLogger-3.16.9.aar\076b334a7a49f5ae57a87f22c2df3288\AndroidManifest.xml:7:5-9:41
+MERGED from [:MAFLogger-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\MAFLogger-3.16.9.aar\076b334a7a49f5ae57a87f22c2df3288\AndroidManifest.xml:7:5-9:41
+MERGED from [:CommonCertificateProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CommonCertificateProvider-3.16.9.aar\42b35b3da409f5632e661563f01ea37a\AndroidManifest.xml:7:5-9:41
+MERGED from [:CommonCertificateProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CommonCertificateProvider-3.16.9.aar\42b35b3da409f5632e661563f01ea37a\AndroidManifest.xml:7:5-9:41
+MERGED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:7:5-9:41
+MERGED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:7:5-9:41
+MERGED from [:XscriptParser-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\XscriptParser-3.16.9.aar\eaa3c637445d066d6c349868deeb84c7\AndroidManifest.xml:7:5-9:41
+MERGED from [:XscriptParser-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\XscriptParser-3.16.9.aar\eaa3c637445d066d6c349868deeb84c7\AndroidManifest.xml:7:5-9:41
+MERGED from [:logon-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\logon-plugin-4.0.0.aar\5f6a2dd912d6217cf72499014706b818\AndroidManifest.xml:7:5-9:41
+MERGED from [:logon-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\logon-plugin-4.0.0.aar\5f6a2dd912d6217cf72499014706b818\AndroidManifest.xml:7:5-9:41
+MERGED from [:appupdate-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appupdate-plugin-4.0.0.aar\44abf3ef2a32ad0b9885872cd30e66a9\AndroidManifest.xml:7:5-9:41
+MERGED from [:appupdate-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appupdate-plugin-4.0.0.aar\44abf3ef2a32ad0b9885872cd30e66a9\AndroidManifest.xml:7:5-9:41
+MERGED from [:logger-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\logger-plugin-4.0.0.aar\82da5bf9a220664b53a0a18bdedfd0bd\AndroidManifest.xml:7:5-9:41
+MERGED from [:logger-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\logger-plugin-4.0.0.aar\82da5bf9a220664b53a0a18bdedfd0bd\AndroidManifest.xml:7:5-9:41
+MERGED from [:encryptedstorage-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\encryptedstorage-plugin-4.0.0.aar\49dbd568d472284d419a23b9fcdb78e9\AndroidManifest.xml:7:5-9:41
+MERGED from [:encryptedstorage-plugin-4.0.0:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\encryptedstorage-plugin-4.0.0.aar\49dbd568d472284d419a23b9fcdb78e9\AndroidManifest.xml:7:5-9:41
+MERGED from [:CordovaLib] D:\WorkSpaceApp\KapselGSDemo\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] D:\WorkSpaceApp\KapselGSDemo\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\6e77837a1c8cdd54314a4e31054fdc17\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:31:42-71
+	android:minSdkVersion
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:31:15-41
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:32:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:33:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:34:5-79
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:34:22-76
+uses-permission#com.sap.mobile.clientHub.CLIENTHUB_ACCESS_PERMISSION
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:35:5-92
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:35:22-89
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:36:5-74
+	android:name
+		ADDED from D:\WorkSpaceApp\KapselGSDemo\platforms\android\app\src\main\AndroidManifest.xml:36:22-71
+activity#com.sap.smp.client.android.afariaprovider.ProviderActivity
+ADDED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:12:9-15:63
+	android:label
+		ADDED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:14:13-57
+	android:theme
+		ADDED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:15:13-60
+	android:name
+		ADDED from [:AfariaProvider-3.16.9:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AfariaProvider-3.16.9.aar\b71c3b4fdce7bd43ee0ef7e80ea18a65\AndroidManifest.xml:13:13-86

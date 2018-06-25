@@ -1,0 +1,58 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "kapsel-plugin-appupdate": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "kapsel-plugin-logger": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "kapsel-plugin-logon": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "kapsel-plugin-encryptedstorage": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "cordova-plugin-http": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    }
+  },
+  "dependent_plugins": {
+    "kapsel-plugin-corelibs": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "kapsel-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "kapsel-plugin-i18n": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "kapsel-plugin-authproxy": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "kapsel-plugin-ui5": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.kapsel.gs"
+    }
+  }
+}

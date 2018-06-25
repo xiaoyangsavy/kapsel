@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/libs/perflib-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/libs/AfariaSLL-7.00.6169.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/libs/simple-xml-2.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/libs/sap-e2etrace-2.3.5.300.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

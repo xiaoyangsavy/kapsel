@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kapsel.gs"
+    android:hardwareAccelerated="true"
+    android:versionCode="10000"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.sap.mobile.clientHub.CLIENTHUB_ACCESS_PERMISSION" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/kapsel_network_security_config"
+        android:supportsRtl="true"
+        android:testOnly="true" >
+        <activity
+            android:name="com.kapsel.gs.MainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:label="@string/activity_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter android:label="@string/launcher_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.kapsel.gs.xcallbackurl" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="org.apache.cordova.camera.FileProvider"
+            android:authorities="com.kapsel.gs.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/camera_provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.sap.smp.client.httpc.authflows.SAML2AuthActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:excludeFromRecents="true" />
+        <activity
+            android:name="com.sap.smp.client.httpc.authflows.OTPAuthActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:excludeFromRecents="true" />
+        <activity
+            android:name="com.sap.mp.cordova.plugins.authProxy.AuthProxyOTPAuthActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:excludeFromRecents="true" />
+
+        <meta-data
+            android:name="com.sap.afaria"
+            android:value="com.sap.smp.client.android.afariaprovider.AfariaCertificateProvider" />
+        <meta-data
+            android:name="android.content.APP_RESTRICTIONS"
+            android:resource="@xml/restrictions" />
+        <meta-data
+            android:name="com.sap.SystemCertProvider"
+            android:value="com.sap.maf.html5.android.SystemCertProvider" />
+
+        <provider
+            android:name="com.sap.mp.cordova.plugins.logger.LoggerFileProvider"
+            android:authorities="com.kapsel.gs.KapselLogger"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/logfilepaths" />
+        </provider>
+
+        <activity
+            android:name="com.sap.smp.client.android.afariaprovider.ProviderActivity"
+            android:label="@string/afaria_provider_name"
+            android:theme="@android:style/Theme.Holo.Light" />
+    </application>
+
+</manifest>

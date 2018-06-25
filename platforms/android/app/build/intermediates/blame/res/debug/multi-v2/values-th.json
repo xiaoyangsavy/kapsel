@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\WorkSpaceApp\\KapselGSDemo\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\AfariaProvider-3.16.9.aar\\b71c3b4fdce7bd43ee0ef7e80ea18a65\\res\\values-th\\values-th.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,134,205,274,445,498,587,657,735",
+                        "endColumns": "78,70,68,170,52,88,69,77,60",
+                        "endOffsets": "129,200,269,440,493,582,652,730,791"
+                    }
+                }
+            ]
+        }
+    ]
+}
