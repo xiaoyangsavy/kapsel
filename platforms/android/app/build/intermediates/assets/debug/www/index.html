@@ -36,6 +36,11 @@
         <title>Test</title>
         <script>
 
+ var appID = "savyId";
+ var userName = "18659239391";
+ var password = "qwer1234";
+
+
 <!-- 测试alert -->
 function myFunction()
 {
@@ -63,7 +68,6 @@ var errorCallback = function(errorInfo){
         valueTextField = document.getElementById("valueTextField");
         resultsTextArea = document.getElementById("resultsTextArea");
 
-        var appID = "savyId";
         var context = {
         "serverHost": "kwaysup.keywaytech.cn", //Place your SAP Mobile Platform 3.0 server name here
         "https": "false",
@@ -106,6 +110,9 @@ cordovaHTTP.post("http://www.liuchang.org",{},{}, function(response){
     }
 });
 }
+
+
+
 
 </script>
     </head>
