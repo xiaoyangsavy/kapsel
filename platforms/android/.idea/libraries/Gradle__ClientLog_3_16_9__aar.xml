@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: ClientLog-3.16.9:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ClientLog-3.16.9.aar/8e98ebcb69cb565a4f5f483ba9dc21a7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ClientLog-3.16.9.aar/8e98ebcb69cb565a4f5f483ba9dc21a7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ClientLog-3.16.9.aar/8bde1d345db4d496b707241bbcdaa0fb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ClientLog-3.16.9.aar/8bde1d345db4d496b707241bbcdaa0fb/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

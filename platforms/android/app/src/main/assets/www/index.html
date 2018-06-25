@@ -90,9 +90,18 @@ var errorCallback = function(errorInfo){
         };
 
         sap.Logon.initPasscodeManager(successCallback, errorCallback, appID, null, passcodePolicy, context);
-
-
         }
+
+function doInterface()
+{
+cordovaHTTP.post("http://www.liuchang.org",{},{}, function(response){
+    if(response.status == 200){
+         alert("successfully initialzed, resulting state: " + response.data);
+    }else{
+        alert("load data server error");
+    }
+});
+}
 
 </script>
     </head>
