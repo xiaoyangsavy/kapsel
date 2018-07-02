@@ -137,6 +137,8 @@ function getInterface()
 <!--调用post接口 -->
 function postInterface()
 {
+ var headers = {"X-SMP-APPCID" : appID};
+cordovaHTTP.setHeader("Header", headers);
 cordovaHTTP.post("https://kwaysup.keywaytech.cn:8088/sap/es/ina/GetResponse", {
             appId:appID,
             phone:userName,
@@ -182,14 +184,14 @@ function initLogon()
              var uri = applicationContext.applicationEndpointURL;
                 var user = applicationContext.registrationContext.user;
                 var password = applicationContext.registrationContext.password;
+                var applicationConnectionId  = sap.Logon.applicationId;
+                 alert(uri+";"+user+";"+password+";"+applicationConnectionId+":"+sap.logon.Core);
                 var headers = {"X-SMP-APPCID" : applicationContext.applicationConnectionId};
- alert(uri+";"+user+";"+password+";"+headers);
-            var oModel = new sap.ui.model.odata.ODataModel(uri,
-                                                               true,
-                                                               user,
-                                                               password,
-                                                               headers);
-         alert("successfully  , resulting oModel: " + oModel);
+ alert(uri+"/sap/opu/odata/sap/KSM00120");
+var oModel = new sap.ui.model.odata.ODataModel(uri+"/sap/opu/odata/sap/KSM00120",
+true);
+alert("successfully , resulting oModel: " + oModel);
+
         }, function(response) {
             alert("error: " + JSON.stringify(errorInfo));
         }, appID, context);
@@ -204,7 +206,7 @@ function initLogon()
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-            <button onclick="initLogon()">初始化密码</button><button onclick="getInterface()">调用接口</button>
+            <button onclick="initLogon()">初始化密码</button><button onclick="postInterface()">调用接口</button>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
