@@ -94,7 +94,7 @@ var errorCallback = function(errorInfo){
 
         var context = {
         "serverHost": "kwaysup.keywaytech.cn", //Place your SAP Mobile Platform 3.0 server name here
-        "https": "false",
+        "https": "true",
         "serverPort": "8088",
         "user": "18659239391", //Place your user name for the OData Endpoint here
         "password": "qwer1234",  //Place your password for the OData Endpoint here
@@ -207,7 +207,7 @@ function sucess01(applicationContext){
  alert(uri+"/sap/opu/odata/sap/KSM00120");
 var oModel = new sap.ui.model.odata.ODataModel(uri+"/sap/opu/odata/sap/zai_incident_srv",
 true);
-alert("successfully , resulting oModel: " + oModel);
+alert("successfully , resulting oModel: " );
 }
 
 
@@ -221,7 +221,7 @@ function sucess02(){
 
                 sUrl = "https://kwaysup.keywaytech.cn:8088/sap/opu/odata/sap/zai_incident_srv/";  //JSON format is less verbose than atom/xml
                 var oHeaders = {};
-                //oHeaders['X-SMP-APPCID'] = applicationContext.applicationConnectionId;  //not needed as this will be sent by the logon plugin
+               oHeaders['X-SMP-APPCID'] = applicationContext.applicationConnectionId;  //not needed as this will be sent by the logon plugin
 
                 var request = {
                     headers : oHeaders,
@@ -251,7 +251,7 @@ function sucess02(){
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-            <button onclick="initLogon()">初始化密码</button><button onclick="sucess02()">调用接口</button>
+            <button onclick="initPasscodeManager()">初始化密码</button><button onclick="getInterface()">调用接口</button>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
