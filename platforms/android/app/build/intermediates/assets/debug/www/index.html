@@ -140,7 +140,7 @@ function getInterface()
 {
 
 
-　window.open('https://kwaysup.keywaytech.cn:8088/sap/opu/odata/sap/zai_incident_srv/');
+　window.open('http://192.168.100.81:8000/sap/opu/odata/sap/ZGHDEMOBSD_SRV/ZDEMOOBJ_OUT');
 }
 
 <!--调用post接口 -->
@@ -175,10 +175,10 @@ cordovaHTTP.post("https://kwaysup.keywaytech.cn:8088/sap/es/ina/GetResponse", {
 function initLogon()
 {
     var context = {
-        "serverHost": "kwaysup.keywaytech.cn", //Place your SAP Mobile Platform 3.0 server name here
+        "serverHost": "http://192.168.100.81", //Place your SAP Mobile Platform 3.0 server name here
         "https": "true",
-        "serverPort": "8088",
-        "user": "18659239391", //Place your user name for the OData Endpoint here
+        "serverPort": "8000",
+        "user": "S0016306603", //Place your user name for the OData Endpoint here
         "password": "qwer1234",  //Place your password for the OData Endpoint here
         //Once set can be changed by calling sap.Logon.changePassword()
         "communicatorId": "GATEWAY",
@@ -214,12 +214,12 @@ true);
 function sucess02(){
 
  var uri = "kwaysup.keywaytech.cn";
-                var user = "18659239391";
+                var user = "S0016306603";
                 var password = "qwer1234";
                 var applicationConnectionId  = "savyId";
                  alert(uri+";"+user+";"+password+";"+applicationConnectionId+":"+applicationConnectionId);
 
-                sUrl = "https://kwaysup.keywaytech.cn:8088/sap/opu/odata/sap/zai_incident_srv/";  //JSON format is less verbose than atom/xml
+                sUrl = "http://192.168.100.81:8000/sap/opu/odata/sap/ZGHDEMOBSD_SRV/ZDEMOOBJ_OUT?$filter=Changenr%20eq%20%270000028809%27%20and%20Objectid%20eq%20%27BC010000022787%27";  //JSON format is less verbose than atom/xml
                 var oHeaders = {};
 
 
@@ -237,15 +237,6 @@ function sucess02(){
             function readSuccessCallback(data, response) {
               alert("Success: " + JSON.stringify(data));
                alert("Success: " + JSON.stringify(response));
- alert("Read " + String(data).toString());
-                  var parser=new DOMParser();var xmlDoc=parser.parseFromString(data,"text/xml");
-                var aaa =   xmlDoc.getElementsByTagName("app:service");
-                 alert("aaa"+aaa);
-                var bbb =   aaa.getElementsByTagName("app:workspace");
-                 alert("bbb"+bbb);
-                 var ccc =   ccc.getElementsByTagName("atom:title");
-                 alert("ccc"+ccc);
-                alert(ccc.nodeValue);
             }
 
               function readErrorCallback(e) {
