@@ -33,6 +33,15 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" charset="utf-8" src="datajs-1.1.2.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="serverContext.js"></script>
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script
+                id="sap-ui-bootstrap"
+                src="resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.ui.m"
+                data-sap-ui-theme="sap_belize" >
+        </script>
         <title>Test</title>
         <script>
 
@@ -131,7 +140,7 @@ function getInterface()
 {
 
 
-　window.open('http://kwaysup.keywaytech.cn');
+　window.open('https://kwaysup.keywaytech.cn:8088/sap/opu/odata/sap/zai_incident_srv/');
 }
 
 <!--调用post接口 -->
@@ -179,7 +188,15 @@ function initLogon()
         "passcode_CONFIRM":"password",
         "ssoPasscode":"Password1"
         };
- sap.Logon.init( function(applicationContext) {
+ sap.Logon.init( sucess01, function(response) {
+            alert("error: " + JSON.stringify(errorInfo));
+        }, appID, context);
+
+ }
+
+function sucess01(applicationContext){
+
+
            alert("successfully initialzed, resulting state: " + JSON.stringify(applicationContext));
              var uri = applicationContext.applicationEndpointURL;
                 var user = applicationContext.registrationContext.user;
@@ -188,15 +205,52 @@ function initLogon()
                  alert(uri+";"+user+";"+password+";"+applicationConnectionId+":"+sap.logon.Core);
                 var headers = {"X-SMP-APPCID" : applicationContext.applicationConnectionId};
  alert(uri+"/sap/opu/odata/sap/KSM00120");
-var oModel = new sap.ui.model.odata.ODataModel(uri+"/sap/opu/odata/sap/KSM00120",
+var oModel = new sap.ui.model.odata.ODataModel(uri+"/sap/opu/odata/sap/zai_incident_srv",
 true);
-alert("successfully , resulting oModel: " + oModel);
 
-        }, function(response) {
-            alert("error: " + JSON.stringify(errorInfo));
-        }, appID, context);
+}
 
- }
+
+function sucess02(){
+
+ var uri = "kwaysup.keywaytech.cn";
+                var user = "18659239391";
+                var password = "qwer1234";
+                var applicationConnectionId  = "savyId";
+                 alert(uri+";"+user+";"+password+";"+applicationConnectionId+":"+applicationConnectionId);
+
+                sUrl = "https://kwaysup.keywaytech.cn:8088/sap/opu/odata/sap/zai_incident_srv/";  //JSON format is less verbose than atom/xml
+                var oHeaders = {};
+
+
+                var request = {
+                    headers : oHeaders,
+                    requestUri : sUrl,
+                    method : "GET"
+                };
+
+
+                OData.read(request, readSuccessCallback, readErrorCallback);
+            }
+
+
+            function readSuccessCallback(data, response) {
+              alert("Success: " + JSON.stringify(data));
+               alert("Success: " + JSON.stringify(response));
+ alert("Read " + String(data).toString());
+                  var parser=new DOMParser();var xmlDoc=parser.parseFromString(data,"text/xml");
+                var aaa =   xmlDoc.getElementsByTagName("app:service");
+                 alert("aaa"+aaa);
+                var bbb =   aaa.getElementsByTagName("app:workspace");
+                 alert("bbb"+bbb);
+                 var ccc =   ccc.getElementsByTagName("atom:title");
+                 alert("ccc"+ccc);
+                alert(ccc.nodeValue);
+            }
+
+              function readErrorCallback(e) {
+                alert("error: " + JSON.stringify(e));
+            }
 </script>
     </head>
     <body>
@@ -206,7 +260,7 @@ alert("successfully , resulting oModel: " + oModel);
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-            <button onclick="initLogon()">初始化密码</button><button onclick="postInterface()">调用接口</button>
+            <button onclick="initLogon()">初始化密码</button><button onclick="getInterface()">登录</button><button onclick="sucess02()">调用接口</button>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
