@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="afaria_provider_name">"Afaria-påloggingsinformasjon"</string>
+    <string name="afariapassword_input">"Oppgi Afaria-passord"</string>
+    <string name="afariauser_input">"Oppgi Afaria-brukernavn"</string>
+    <string name="cert_provider_description">"Afaria Certificate Provider må laste ned sertifikatet ditt fra serveren. Sertifikatet ditt lagres på en sikker måte."</string>
+    <string name="cert_provider_get">"OK"</string>
+    <string name="error_message">"Feil har oppstått. Kontakt administrator."</string>
+    <string name="progress_message">"Afaria-sertifikat rekvireres"</string>
+    <string name="sap_copyright">"Copyright © 2015 SE. Med enerett."</string>
+    <string name="sap_logo_description">"SAP-logo"</string>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_background">#009cdf</color>
+    <color name="hint_color">#42000000</color>
+    <color name="success_color">#009688</color>
+    <color name="text_view_background">#bbd3d3d3</color>
+    <color name="text_view_error_background">#fbdede</color>
+    <color name="warning_color">#f4511e</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="afaria_provider_name">"Afaria Credentials"</string>
+    <string name="afariapassword_input">"Enter Afaria password"</string>
+    <string name="afariauser_input">"Enter Afaria user name"</string>
+    <string name="app_name">KapselGSDemo</string>
+    <string name="authentication_required">Authentication Required</string>
+    <string name="basic_auth_message">The server %1$s requires a username and password.</string>
+    <string name="cancel">Cancel</string>
+    <string name="cert_provider_description">"The Afaria Certificate Provider needs to download your certificate from the server. Your certificate will be stored securely."</string>
+    <string name="cert_provider_get">"OK"</string>
+    <string name="error_message">"An error occurred! Please contact your administrator."</string>
+    <string name="fingerprint_auth_dialog_title">Fingerprint Authentication</string>
+    <string name="fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again.</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="log_in">Log In</string>
+    <string name="logon_app_will_reload">The password has been changed.  The page will now reload.</string>
+    <string name="logon_ok">OK</string>
+    <string name="logon_password_changed">Password Changed</string>
+    <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
+    <string name="ok">Ok</string>
+    <string name="password">Password</string>
+    <string name="progress_message">"Requesting Afaria certificate"</string>
+    <string name="restriction_description_allowSavingFormCredentials">Allow form credentials to be saved and pre-populated in the future.</string>
+    <string name="restriction_description_appID">The appID used to identify the application to the data vault. If you are
+            using SMP, this should be consistent with the appID of the target application. Note that
+            this value is distinct from the packageName, which is mainly used to identify your
+            application in app stores.</string>
+    <string name="restriction_description_appName">An optional property used to customize the Fiori application name shown on logon screen. By default, the app name is "SAP Fiori Client".  When this field is blank the default is used.</string>
+    <string name="restriction_description_authType">The authorization type.  This only needs to be specified for OAuth (as "oauth2") or SAML (as "saml2.web.post").</string>
+    <string name="restriction_description_autoSelectSingleCert">Automatically select the client certificate for mutual authentication
+            if only one client certificate is available.</string>
+    <string name="restriction_description_certificate">Client Certificate Provider</string>
+    <string name="restriction_description_communicatorId">The communicator id for SMP/HCPms registration.  The default is "REST".</string>
+    <string name="restriction_description_disablePasscode">When true, the passcode screen will not be shown.  Must be false when multi-user support is enabled.</string>
+    <string name="restriction_description_enableCacheManager">Enables the Cache Manager plugin.</string>
+    <string name="restriction_description_fioriURL">The full URL of the target application. If your application does not
+            use SMP, it will navigate directly to this URL once logon is completed. If your app
+            does use SMP, this URL is parsed and used in the following way:
+               1. The URL scheme (which must be http or https) determines the inital value
+                  of the \'https\' flag in the registration dialog. Similarly, the host and port
+                  in the URL determine their corresponding initial values in the registration dialog,
+                  with port defaulting to 443 if it\'s not specified.
+               2. The URL suffix (everything after the host and port) is appended to the URL that
+                  the user registers to. Though this is likely to be the same as the scheme, host and
+                  port from 1., the user has the opportunity to change these values. In contrast,
+                  the suffix can\'t be changed.
+             If you are using SMP, you will ultimately want to specify the scheme, host and port of
+             your SMP server, followed by the suffix of the Fiori endpoint. For example:
+
+             \'https://my.smp.server:8081/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html\'</string>
+    <string name="restriction_description_fioriURLIsSMP">Set this to true if your are using SMP. If set to true, the application will perform SMP registration.</string>
+    <string name="restriction_description_idpLogonURL">URL used to reload idp logon with username/passcode passed from SAP authenticator for SSO.</string>
+    <string name="restriction_description_keysize">An optional argument for the AfariaCertificateProvider.  It sets the bit rate of the public/private keys.  If this value is empty, or invalid, it will default to 2048.</string>
+    <string name="restriction_description_oauth2.authorizationEndpoint">The URL used to authorize the user.</string>
+    <string name="restriction_description_oauth2.clientID">The client ID that will be used to identify the application.</string>
+    <string name="restriction_description_oauth2.grantType">The grant type to use.</string>
+    <string name="restriction_description_oauth2.tokenEndpoint">The URL to get the tokens from.</string>
+    <string name="restriction_description_passcodePolicyAllowFingerprint">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyDefaultAllowed">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyExpirationDays">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyHasDigits">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyHasLowerCaseLetters">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyHasSpecialLetters">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyHasUpperCaseLetters">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyLockTimeout">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyMinLength">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyMinUniqueChars">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_passcodePolicyRetryLimit">The passcodePolicy of the data vault. Note: if you
+            are using SMP, the passcodePolicy is determined by the server.</string>
+    <string name="restriction_description_prefetch">Fetches web assets of SAP Fiori apps from Fiori Front End Server and downloads them to the user\'s device. After the initial download, fetches and downloads any application updates from Fiori Front End Server.</string>
+    <string name="restriction_title_allowSavingFormCredentials">Allow Saving Form Credentials</string>
+    <string name="restriction_title_appID">Application ID</string>
+    <string name="restriction_title_appName">Application Name</string>
+    <string name="restriction_title_authType">Authorization Type</string>
+    <string name="restriction_title_autoSelectSingleCert">Automatically Select Client Certificate Provider</string>
+    <string name="restriction_title_certificate">Client Certificate Provider</string>
+    <string name="restriction_title_communicatorId">Communicator ID</string>
+    <string name="restriction_title_disablePasscode">Disable Passcode Screen</string>
+    <string name="restriction_title_enableCacheManager">Enable Cache Manager</string>
+    <string name="restriction_title_fioriURL">Fiori Server URL</string>
+    <string name="restriction_title_fioriURLIsSMP">Fiori Server URL is an SMP server</string>
+    <string name="restriction_title_idpLogonURL">IDP Logon URL</string>
+    <string name="restriction_title_keysize">Afaria Certificate Provider Keysize</string>
+    <string name="restriction_title_oauth2.authorizationEndpoint">OAuth Authorization Endpoint</string>
+    <string name="restriction_title_oauth2.clientID">OAuth Client ID</string>
+    <string name="restriction_title_oauth2.grantType">OAuth Grant Type</string>
+    <string name="restriction_title_oauth2.tokenEndpoint">OAuth Token Endpoint</string>
+    <string name="restriction_title_passcodePolicyAllowFingerprint">Passcode Policy Allow Fingerprint Authentication</string>
+    <string name="restriction_title_passcodePolicyDefaultAllowed">Passcode Policy Default Allowed</string>
+    <string name="restriction_title_passcodePolicyExpirationDays">Passcode Policy Expiration Days</string>
+    <string name="restriction_title_passcodePolicyHasDigits">Passcode Policy Has Digits</string>
+    <string name="restriction_title_passcodePolicyHasLowerCaseLetters">Passcode Policy Has Lower Case Letters</string>
+    <string name="restriction_title_passcodePolicyHasSpecialLetters">Passcode Policy Has Special Letters</string>
+    <string name="restriction_title_passcodePolicyHasUpperCaseLetters">Passcode Policy Has Upper Case Letters</string>
+    <string name="restriction_title_passcodePolicyLockTimeout">Passcode Policy Lock Timeout</string>
+    <string name="restriction_title_passcodePolicyMinLength">Passcode Policy Minimum Length</string>
+    <string name="restriction_title_passcodePolicyMinUniqueChars">Passcode Policy Minimun Unique Chars</string>
+    <string name="restriction_title_passcodePolicyRetryLimit">Passcode Policy Retry Limit</string>
+    <string name="restriction_title_prefetch">Prefetch web assets</string>
+    <string name="sap_copyright">"Copyright © 2015 SE. All rights reserved."</string>
+    <string name="sap_logo_description">"SAP logo"</string>
+    <string name="secure_lock_screen_required">Secure lock screen required!</string>
+    <string name="use_backup">Use backup</string>
+    <string name="username">User Name</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+    </style>
+    <style name="WildFlowers" parent="android:Theme.Holo.Light">
+        <item name="android:background">@drawable/background</item>
+    </style>
+    <style name="editTextClassic" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:background">@android:drawable/edit_text</item>
+    </style>
+</resources>

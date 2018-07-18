@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="afaria_provider_name">"ข้อมูลประจำตัวสำหรับ Afaria"</string>
+    <string name="afariapassword_input">"ป้อนรหัสผ่าน Afaria"</string>
+    <string name="afariauser_input">"ป้อนชื่อผู้ใช้ Afaria"</string>
+    <string name="cert_provider_description">"Afaria Certificate Provider จำเป็นต้องดาวน์โหลดใบรับรองของคุณจากเซิร์ฟเวอร์ ใบรับรองของคุณจะถูกจัดเก็บอย่างปลอดภัย"</string>
+    <string name="cert_provider_get">"ตกลง"</string>
+    <string name="error_message">"เกิดข้อผิดพลาด! กรุณาติดต่อผู้ดูแลระบบของคุณ"</string>
+    <string name="progress_message">"กำลังขอใบรับรอง Afaria"</string>
+    <string name="sap_copyright">"Copyright © 2015 SE สงวนลิขสิทธิ์"</string>
+    <string name="sap_logo_description">"โลโก้ SAP"</string>
+</resources>

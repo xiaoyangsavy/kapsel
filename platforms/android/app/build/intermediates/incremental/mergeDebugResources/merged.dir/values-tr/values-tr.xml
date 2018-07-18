@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="afaria_provider_name">"Afaria kimlik bilgileri"</string>
+    <string name="afariapassword_input">"Afaria parolasını gir"</string>
+    <string name="afariauser_input">"Afaria kullanıcı adı gir"</string>
+    <string name="cert_provider_description">"Afaria sertifika sağlayıcısı sunucudan sertifikanızı indirmeli. Sertifikanız güvenli bir biçimde depolanacak."</string>
+    <string name="cert_provider_get">"Tamam"</string>
+    <string name="error_message">"Hata ortaya çıktı! Yöneticinizle irtibata geçin."</string>
+    <string name="progress_message">"Afaria sertifikası talep ediliyor"</string>
+    <string name="sap_copyright">"Telif hakkı © 2015 SE. Tüm hakları saklıdır."</string>
+    <string name="sap_logo_description">"SAP logosu"</string>
+</resources>

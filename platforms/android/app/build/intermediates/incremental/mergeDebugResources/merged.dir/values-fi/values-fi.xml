@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="afaria_provider_name">"Afaria-kirjautumistiedot"</string>
+    <string name="afariapassword_input">"Syötä Afaria-salasana"</string>
+    <string name="afariauser_input">"Syötä Afaria-käyttäjänimi"</string>
+    <string name="cert_provider_description">"Afaria-varmenteen tarjoajan täytyy ladata varmenteesi palvelimesta. Varmenteesi tallennetaan turvallisesti."</string>
+    <string name="cert_provider_get">"OK"</string>
+    <string name="error_message">"Virhe - ota yhteys pääkäyttäjään."</string>
+    <string name="progress_message">"Afaria-varmennetta pyydetään"</string>
+    <string name="sap_copyright">"Copyright © 2015 SE. Kaikki oikeudet pidätetään."</string>
+    <string name="sap_logo_description">"SAP:n logo"</string>
+</resources>

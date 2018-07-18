@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="afaria_provider_name">"Acreditări Afaria"</string>
+    <string name="afariapassword_input">"Introduceţi parolă Afaria"</string>
+    <string name="afariauser_input">"Introduceţi nume de utilizator Afaria"</string>
+    <string name="cert_provider_description">"Furnizorul de certificate Afaria trebuie să descarce certificatul dvs. de pe server. Certificatul dvs. va fi memorat în siguranţă."</string>
+    <string name="cert_provider_get">"OK"</string>
+    <string name="error_message">"A apărut o eroare! Contactaţi administratorul dvs."</string>
+    <string name="progress_message">"Solicitare certificat Afaria"</string>
+    <string name="sap_copyright">"Copyright © 2015 SE. Toate drepturile rezervate."</string>
+    <string name="sap_logo_description">"Logo SAP"</string>
+</resources>

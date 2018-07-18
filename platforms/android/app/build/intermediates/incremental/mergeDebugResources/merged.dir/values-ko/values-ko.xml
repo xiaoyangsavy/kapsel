@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="afaria_provider_name">"Afaria 자격 증명"</string>
+    <string name="afariapassword_input">"Afaria 비밀번호 입력"</string>
+    <string name="afariauser_input">"Afaria 사용자 이름 입력"</string>
+    <string name="cert_provider_description">"Afaria 인증서 프로바이더가 서버에서 사용자의 인증서를 다운로드해야 합니다. 인증서는 안전하게 저장됩니다."</string>
+    <string name="cert_provider_get">"확인"</string>
+    <string name="error_message">"오류가 발생했습니다! 관리자에게 문의하십시오."</string>
+    <string name="progress_message">"Afaria 인증서 요청 중"</string>
+    <string name="sap_copyright">"저작권 © 2015 SE. 모든 권한 보유."</string>
+    <string name="sap_logo_description">"SAP 로고"</string>
+</resources>
