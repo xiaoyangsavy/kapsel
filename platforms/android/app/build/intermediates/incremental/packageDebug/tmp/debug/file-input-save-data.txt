@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 05 16:52:34 CST 2018
+#Tue Jul 10 14:55:37 CST 2018
 1863.set=ASSET
 1670.baseType=DIRECTORY
 1511.path=www/resources/sap/ui/mdc/messagebundle_fr.properties

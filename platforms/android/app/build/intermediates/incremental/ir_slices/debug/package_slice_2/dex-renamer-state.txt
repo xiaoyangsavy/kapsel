@@ -1,4 +1,4 @@
-#Mon Jun 25 09:06:31 CST 2018
+#Tue Jul 10 14:47:58 CST 2018
 base.0=D\:\\WorkSpaceApp\\KapselGSDemo\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex
