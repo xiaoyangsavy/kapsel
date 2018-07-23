@@ -93,17 +93,11 @@ var errorCallback = function(errorInfo){
         resultsTextArea = document.getElementById("resultsTextArea");
 
         var context = {
-<<<<<<< HEAD
+
         "serverHost": "kwaysup.keywaytech.cn", //Place your SAP Mobile Platform 3.0 server name here
         "https": "true",
         "serverPort": "8088",
         "user": "18659239391", //Place your user name for the OData Endpoint here
-=======
-        "serverHost": "http://192.168.100.81", //Place your SAP Mobile Platform 3.0 server name here
-        "https": "false",
-        "serverPort": "8000",
-        "user": "S0016306603", //Place your user name for the OData Endpoint here
->>>>>>> a62e2815393fdcea0f59d624a695c7b04e97eb79
         "password": "qwer1234",  //Place your password for the OData Endpoint here
         //Once set can be changed by calling sap.Logon.changePassword()
         "communicatorId": "GATEWAY",
@@ -146,12 +140,8 @@ cordovaHTTP.post("http://www.liuchang.org",{},{}, function(response){
 function getInterface()
 {
 
-
-<<<<<<< HEAD
 　window.open('https://kwaysup.keywaytech.cn:8088/sap/opu/odata/sap/zai_incident_srv/');
-=======
-　window.open('http://192.168.100.81:8000/sap/opu/odata/sap/ZGHDEMOBSD_SRV/ZDEMOOBJ_OUT?$filter=Changenr%20eq%20%270000028809%27%20and%20Objectid%20eq%20%27BC010000022787%27');
->>>>>>> a62e2815393fdcea0f59d624a695c7b04e97eb79
+
 }
 
 <!--调用post接口 -->
